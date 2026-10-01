@@ -13,10 +13,15 @@
   --color-green: #54d98c;
   --color-lime: #d8f16b;
   --color-pink: #f7c2dd;
+  --color-blue: #54acff;
   --color-on-light: #16220e;
   --color-on-dark: #f0eee3;
 }
 
 :root {
   --rule: 1.5px;
+}
+
+li {
+  min-height: 100%;
 }

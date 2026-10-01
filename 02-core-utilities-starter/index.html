@@ -12,13 +12,14 @@
     />
     <link rel="stylesheet" href="assets/app.css" />
   </head>
-  <body>
+  <body class="bg-paper font-sans text-ink">
     <!-- Nothing here has a class yet. Colour, sizing, spacing, and type all
          get added by you, one utility class at a time. -->
-    <main>
-      <ul>
-        <li>
-          <svg
+    <main class="py-[clamp(2rem,1.5rem+2vw,3.5rem)]">
+      <ul class="list-none border-t-(length:--rule) border-ink pl-0">
+        <li class="border-b-(length:--rule) border-ink bg-lime p-8 text-center text-on-light">
+          <svg 
+            class="mx-auto mb-4 block h-14 w-14"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -34,10 +35,11 @@
               d="M20 5.5c0-.83-.67-1.5-1.5-1.5H13v16h5.5c.83 0 1.5-.67 1.5-1.5v-13Z"
             />
           </svg>
-          <span>Study skills</span>
+          <span class="font-display text-lg font-bold">Study skills</span>
         </li>
-        <li>
+        <li class="border-b-(length:--rule) border-ink bg-ink-deep p-8 text-center text-on-dark">
           <svg
+            class="mx-auto mb-4 block h-14 w-14"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -52,8 +54,9 @@
           </svg>
           <span>Assistive technology</span>
         </li>
-        <li>
+        <li class="border-b-(length:--rule) border-ink bg-green p-8 text-center text-on-light">
           <svg
+            class="mx-auto mb-4 block h-14 w-14"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -68,8 +71,9 @@
           </svg>
           <span>Wellbeing</span>
         </li>
-        <li>
+        <li class="border-b-(length:--rule) border-ink bg-pink p-8 text-center text-on-light">
           <svg
+            class="mx-auto mb-4 block h-14 w-14"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -85,11 +89,29 @@
           </svg>
           <span>Social &amp; peer</span>
         </li>
+        <li class="min-h-full border-b-(length:--rule) border-ink bg-blue p-8 text-center text-on-light">
+          <svg
+            class="mx-auto mb-4 block h-14 w-14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="8.5" cy="8" r="3" />
+            <path d="M2.5 20c0-3.3 2.7-6 6-6s6 2.7 6 6" />
+            <circle cx="17" cy="9" r="2.5" />
+            <path d="M15.5 14.2c2.9.4 5 2.9 5 5.8" />
+          </svg>
+          <span>Contact</span>
+        </li>
       </ul>
     </main>
-    <footer>
-      <div>
-        <p>
+    <footer class="mt-[clamp(2.5rem,2rem+3vw,4rem)]">
+      <div div class="mx-auto max-w-5xl px-5">
+        <p class="border-(length:--rule) border-ink bg-pink px-5 py-4 font-display text-[1.0625rem] font-extrabold text-on-light">
           Compass is not an emergency or crisis service. If you need urgent
           help, contact the Student Health Centre, ring the Samaritans free on
           116 123, or call the emergency services on 112 or 999.
