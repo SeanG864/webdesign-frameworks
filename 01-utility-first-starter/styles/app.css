@@ -7,13 +7,41 @@
   --font-sans:
     "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
 
+    /* No values for --color-ink-deep and --color-on-dark in solution */
   --color-paper: #f0eee3;
   --color-ink: #16220e;
   --color-link: #0b5c2a;
+  
 
+  --font-display: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
   --text-display: clamp(2.5rem, 1.6rem + 4vw, 5rem);
 }
 
 :root {
   --rule: 1.5px;
+  --brand-colour: #0b5c2a;
+}
+
+.hero-eyebrow {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0b5c2a;
+}
+
+a {
+  color: var(--brand-colour);
+}
+
+.text-link {
+  color: var(--color-link);
+}
+
+:hover {
+  color:blue;
+}
+
+.dark {
+  color:red;
 }
